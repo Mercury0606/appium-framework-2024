@@ -31,7 +31,8 @@ public class BaseTest {
 
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("neg");
-        options.setApp("//Users/zhongchongyuan//IdeaProjects//appium-framework-2024//src//main//java//Resources//ApiDemos-debug.apk");
+//        options.setApp("//Users/zhongchongyuan//IdeaProjects//appium-framework-2024//src//main//java//Resources//ApiDemos-debug.apk");
+        options.setApp("//Users/zhongchongyuan//IdeaProjects//appium-framework-2024//src//main//java//Resources//General-Store.apk");
 
         androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
         androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
