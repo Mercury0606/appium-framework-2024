@@ -1,4 +1,4 @@
-package org.example;
+package Merc.pratice;
 
 public class ChildClassDemo extends ParentClassDemo{
     public void engine(){

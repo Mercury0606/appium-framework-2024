@@ -1,4 +1,4 @@
-package org.example;
+package Merc.pratice;
 
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;

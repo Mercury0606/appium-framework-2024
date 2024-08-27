@@ -1,4 +1,4 @@
-package org.example;
+package Merc.pratice;
 
 public class MethodsDemo2 {
     public String  getData(){

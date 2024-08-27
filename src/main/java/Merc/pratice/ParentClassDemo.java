@@ -1,4 +1,4 @@
-package org.example;
+package Merc.pratice;
 
 public class ParentClassDemo  {
     String colour = "red";

@@ -1,4 +1,4 @@
-package org.example;
+package Merc.pratice;
 
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.android.AndroidDriver;
@@ -78,6 +78,11 @@ public class BaseTest {
                 "endY", endY
         ));
     }
+
+    public void stratActivity(String intent){
+        ((JavascriptExecutor) androidDriver).executeScript("mobile: startActivity", ImmutableMap.of("intent",intent));
+    }
+
     @AfterClass
     public void tearDown(){
         androidDriver.quit();

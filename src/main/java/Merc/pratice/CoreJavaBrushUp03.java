@@ -1,4 +1,4 @@
-package org.example;
+package Merc.pratice;
 
 public class CoreJavaBrushUp03 {
     public static void main(String[] args) {

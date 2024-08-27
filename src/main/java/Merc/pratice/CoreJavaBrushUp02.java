@@ -1,4 +1,4 @@
-package org.example;
+package Merc.pratice;
 
 import java.util.ArrayList;
 
